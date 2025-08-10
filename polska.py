@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher, types, F, Router
 from aiogram.types import FSInputFile, ReplyKeyboardMarkup, KeyboardButton
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
-BOT_TOKEN = "8245533419:AAHJmJmeDsei7XGzhxT04Hfoz-uULtoeQ1g"
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 router = Router()
 
