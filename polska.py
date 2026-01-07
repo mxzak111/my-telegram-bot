@@ -25,7 +25,7 @@ def init_db():
 
 init_db()
 
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+BOT_TOKEN = "8245533419:AAHJmJmeDsei7XGzhxT04Hfoz-uULtoeQ1g"
 if not BOT_TOKEN:
     print("❌ Ошибка: Токен не найден!")
     print("Проверьте:")
