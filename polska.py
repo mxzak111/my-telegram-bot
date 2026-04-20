@@ -122,7 +122,7 @@ async def show_options(message: types.Message):
     keyboard = InlineKeyboardBuilder()
     keyboard.button(text="Канал", url="https://t.me/dovidka_studenta")
     keyboard.button(text="Менеджер", url="https://t.me/Status_Studenta0")
-    keyboard.button(text="Інстаграм", url="https://www.instagram.com/pl.status.student?igsh=MWd5azlxZmdrb3U4aQ==")
+    keyboard.button(text="Інстаграм", url="https://www.instagram.com/poland.status.studenta?igsh=MXJsZTlzbnRhbGhrcA==")
     keyboard.button(text="Відгуки", callback_data="reviews")
     keyboard.button(text="Інфо", callback_data="info")
     keyboard.button(text="Ціни", callback_data="prices")
